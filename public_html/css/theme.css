@@ -1,4 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap");
+.btn-default, .btn-orange, .btn-mint, .btn-green, .btn-purple, .btn-red {
+  display: inline-block;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-default {
+  background-color: #939cab;
+}
+
+.btn-orange {
+  background-color: #ff7214;
+}
+
+.btn-mint {
+  background-color: #14ffb9;
+}
+
+.btn-green {
+  background-color: #32c924;
+}
+
+.btn-purple {
+  background-color: #df03fc;
+}
+
+.btn-red {
+  background-color: #f00c2a;
+}
+
 img {
   max-width: 100%;
 }
@@ -114,14 +149,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
   background-color: #ffffff;
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 7:05:07 PM
-    Author     : milos
-*/
+.service-section {
+  padding: 30px 0;
+}
+
 .comment-section {
   padding: 30px 0;
   background-color: #ffffff;

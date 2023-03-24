@@ -1,0 +1,49 @@
+
+$btn-default: $grey;
+$btn-danger: $orange;
+$btn-mint: $mint;
+$btn-green: $green;
+$btn-purple: $purple;
+$btn-red: $red;
+
+
+
+
+%btn{
+    display: inline-block;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-default{
+    @extend %btn;
+     background-color: $btn-default;
+}
+.btn-orange{
+     @extend %btn;
+     background-color: $btn-danger;
+}
+.btn-mint{
+     @extend %btn;
+     background-color: $btn-mint;
+}
+.btn-green{
+     @extend %btn;
+     background-color: $btn-green;
+}
+.btn-purple{
+     @extend %btn;
+     background-color: $btn-purple;
+}
+.btn-red{
+     @extend %btn;
+     background-color: $btn-red;
+}
+
+
+
