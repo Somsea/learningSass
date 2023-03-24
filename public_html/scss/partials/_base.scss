@@ -1,3 +1,24 @@
+$default-text-color: $black;
+$default-bg: $light-grey;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap');
+
+
+//font-family: 'Josefin Sans', sans-serif;
+//font-family: 'Lato', sans-serif;
+//font-family: 'Rubik', sans-serif;
+
+$default-font: $rubik;
+$heading-font: $josefim;
+
+$default-weight: $font-regular;
+$heading-weight: $font-bold;
+$heading-color: $purple;
+
+
+
+
+
+
 img{
     max-width: 100%;
 }
@@ -21,4 +42,18 @@ html{
     margin: 0 auto;
     width: 95%;
     max-width: 1200px;
+}
+
+body{
+    font-size: 1.6rem;
+    color: $default-text-color;
+    background-color: $default-bg;
+    font-family: $default-font;
+    font-weight: $default-weight 
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $heading-font;
+    font-weight: $heading-weight;
+    color: $heading-color;
 }

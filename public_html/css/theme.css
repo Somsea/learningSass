@@ -1,11 +1,4 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 6:54:01 PM
-    Author     : milos
-*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap");
 img {
   max-width: 100%;
 }
@@ -31,8 +24,35 @@ html {
   max-width: 1200px;
 }
 
+body {
+  font-size: 1.6rem;
+  color: #000000;
+  background-color: #eeeeee;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #df03fc;
+}
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
+*/
+/*
+    Created on : Mar 23, 2023, 6:54:01 PM
+    Author     : milos
+*/
 header {
   padding: 20px 0;
+  background-color: #df03fc;
+}
+
+header a {
+  color: #ffffff;
 }
 
 /*
@@ -43,14 +63,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Created on : Mar 23, 2023, 7:03:52 PM
     Author     : milos
 */
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 7:04:16 PM
-    Author     : milos
-*/
+.about-section {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
@@ -59,14 +76,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Created on : Mar 23, 2023, 7:05:07 PM
     Author     : milos
 */
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 7:05:25 PM
-    Author     : milos
-*/
+.comment-section {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
@@ -83,13 +97,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Created on : Mar 23, 2023, 7:06:54 PM
     Author     : milos
 */
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 7:07:02 PM
-    Author     : milos
-*/
+footer {
+  padding: 30px 0px;
+  background-color: #df03fc;
+}
+
+footer a, footer p {
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=theme.css.map */
