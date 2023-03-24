@@ -23,26 +23,48 @@ $btn-red: $red;
 .btn-default{
     @extend %btn;
      background-color: $btn-default;
+     &:hover{
+         background-color: darken($btn-default, 10%);
+     }
 }
 .btn-orange{
      @extend %btn;
-     background-color: $btn-danger;
+     background-color: rgba($btn-danger, 0.4);
+     &:hover{
+         background-color: darken($btn-danger, 10%);
+     }
+     
 }
 .btn-mint{
      @extend %btn;
      background-color: $btn-mint;
+     &:hover{
+         background-color: darken($btn-mint, 10%);
+     }
+     
 }
 .btn-green{
      @extend %btn;
      background-color: $btn-green;
+     &:hover{
+         background-color: darken($btn-green, 10%);
+     }
+     
 }
 .btn-purple{
      @extend %btn;
      background-color: $btn-purple;
+     &:hover{
+         background-color: darken($btn-purple, 10%);
+     }
+     
 }
 .btn-red{
      @extend %btn;
      background-color: $btn-red;
+     &:hover{
+         background-color: darken($btn-red, 10%);
+     }
 }
 
 

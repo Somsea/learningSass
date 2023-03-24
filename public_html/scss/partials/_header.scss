@@ -5,6 +5,7 @@ $nav-link-hover: $green;
 
 
 
+
 header{
     padding: 20px 0;
     background-color: $header-bg;
@@ -30,10 +31,10 @@ header{
                     font-family: $nav-font;
                     text-transform: uppercase;
                     font-weight: $font-bold;
-                }
-                &:hover,
-                    &.active{
-                    color: $nav-link-hover;
+                    
+                    &:hover, &.active{
+                        color: $nav-link-hover;
+                    }
                 }
                 // a end 
             }
@@ -56,7 +57,7 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
+
             nav{
                 ul{
                     display: flex;
@@ -67,8 +68,10 @@ header{
                     }
                 }
             }
-        } //container end
-    }// header end 
+        }
+        //container end
+    }
+    // header end 
 }
 
 @media(min-width:992px){
@@ -83,6 +86,8 @@ header{
                     }
                 }
             }
-        } //container end
-    }// header end 
+        }
+        //container end
+    }
+    // header end 
 }
