@@ -3,10 +3,10 @@
   display: inline-block;
   padding: 10px 25px;
   border: none;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  border-radius: 5px, 50%, 5px, 50%;
+  -moz-border-radius: 5px, 50%, 5px, 50%;
+  -o-border-radius: 5px, 50%, 5px, 50%;
+  -webkit-border-radius: 5px, 50%, 5px, 50%;
   cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
     Author     : milos
 */
 header {
-  padding: 20px 0;
+  padding: 30px 0 30px;
   background-color: #df03fc;
 }
 
@@ -160,30 +160,36 @@ header nav ul li a:hover, header nav ul li a.active {
   }
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 7:03:52 PM
-    Author     : milos
-*/
+.home-section {
+  padding: 150px 0 150px;
+  background-color: #ffffff;
+}
+
 .about-section {
-  padding: 30px 0;
+  padding: 30px 0 30px;
   background-color: #ffffff;
 }
 
 .service-section {
-  padding: 30px 0;
+  padding: 30px 0 30px;
+  background-color: transparent;
 }
 
 .comment-section {
-  padding: 30px 0;
+  padding: 30px 0 30px;
   background-color: #ffffff;
 }
 
+.comment-section .comment-img img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
 .course-section {
-  padding: 50px 0px;
+  padding: 30px 0 30px;
+  background-color: transparent;
 }
 
 .course-section table {
@@ -219,16 +225,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
   background-color: #c8c8c8;
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 23, 2023, 7:06:54 PM
-    Author     : milos
-*/
+.contact-section {
+  padding: 150px 0 150px;
+  background-color: #ffffff;
+}
+
 footer {
-  padding: 30px 0px;
+  padding: 30px 0 30px;
   background-color: #df03fc;
 }
 

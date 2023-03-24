@@ -5,8 +5,7 @@ $footer-nav-font: $josefim;
 $footer-color: $white;
 
 footer{
-    padding: 30px 0px;
-    background-color: $purple;
+    @include styleSection(30px, 30px, $footer-bg);
 
     ul{
         list-style: none;
