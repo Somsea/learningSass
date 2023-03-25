@@ -1,13 +1,20 @@
 
-$btn-default: $grey;
+/*$btn-default: $grey;
 $btn-danger: $orange;
 $btn-mint: $mint;
 $btn-green: $green;
 $btn-purple: $purple;
 $btn-red: $red;
-$btn-default-color: $white;
+$btn-default-color: $white;*/
 
-
+$btn-collection: (
+'default'  : $grey,
+'orange'   : $orange,
+'mint'     : $mint,
+'green'    : $green,
+'purple'   : $purple,
+'red'      : $red,
+);
 
 
 %btn{
@@ -19,6 +26,21 @@ $btn-default-color: $white;
     cursor: pointer;
 }
 
+
+@each $key, $value in $btn-collection{
+
+    .btn-#{$key}{
+        @extend %btn;
+        background-color: $value;
+        color: colorYic($value);
+        &:hover{
+            background-color: darken($value, 10%);
+        }
+    }
+}
+
+
+/*
 .btn-default{
     @extend %btn;
     background-color: $btn-default;
@@ -71,6 +93,7 @@ $btn-default-color: $white;
         background-color: darken($btn-red, 10%);
     }
 }
+*/
 
 
 

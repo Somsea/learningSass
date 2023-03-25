@@ -1,3 +1,10 @@
+/*$btn-default: $grey;
+$btn-danger: $orange;
+$btn-mint: $mint;
+$btn-green: $green;
+$btn-purple: $purple;
+$btn-red: $red;
+$btn-default-color: $white;*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap");
 .btn-default, .btn-orange, .btn-mint, .btn-green, .btn-purple, .btn-red {
   display: inline-block;
@@ -20,7 +27,7 @@
 }
 
 .btn-orange {
-  background-color: rgba(255, 114, 20, 0.4);
+  background-color: #ff7214;
   color: #000000;
 }
 
@@ -64,6 +71,60 @@
   background-color: #bf0a22;
 }
 
+/*
+.btn-default{
+    @extend %btn;
+    background-color: $btn-default;
+    color: colorYic($btn-default);
+    &:hover{
+        background-color: darken($btn-default, 10%);
+    }
+}
+.btn-orange{
+    @extend %btn;
+    background-color: rgba($btn-danger, 0.4);
+    color: colorYic($btn-danger);
+    &:hover{
+        background-color: darken($btn-danger, 10%);
+    }
+
+}
+.btn-mint{
+    @extend %btn;
+    background-color: $btn-mint;
+    color: colorYic($btn-mint);
+    &:hover{
+        background-color: darken($btn-mint, 10%);
+    }
+
+}
+.btn-green{
+    @extend %btn;
+    background-color: $btn-green;
+    color: colorYic($btn-green);
+    &:hover{
+        background-color: darken($btn-green, 10%);
+    }
+
+}
+.btn-purple{
+    @extend %btn;
+    background-color: $btn-purple;
+    color: colorYic($btn-purple);
+    &:hover{
+        background-color: darken($btn-purple, 10%);
+    }
+
+}
+.btn-red{
+    @extend %btn;
+    background-color: $btn-red;
+    color: colorYic($btn-red);
+    &:hover{
+        background-color: darken($btn-red, 10%);
+    }
+}
+*/
 img {
   max-width: 100%;
 }
