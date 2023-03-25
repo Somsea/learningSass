@@ -5,6 +5,7 @@ $btn-mint: $mint;
 $btn-green: $green;
 $btn-purple: $purple;
 $btn-red: $red;
+$btn-default-color: $white;
 
 
 
@@ -13,56 +14,62 @@ $btn-red: $red;
     display: inline-block;
     padding: 10px 25px;
     border: none;
-   // @include radius(5px);
-  @include customRadius(5px, 50%, 5px, 50%);
+    // @include radius(5px);
+    @include customRadius(5px, 50%, 5px, 50%);
     cursor: pointer;
 }
 
 .btn-default{
     @extend %btn;
-     background-color: $btn-default;
-     &:hover{
-         background-color: darken($btn-default, 10%);
-     }
+    background-color: $btn-default;
+    color: colorYic($btn-default);
+    &:hover{
+        background-color: darken($btn-default, 10%);
+    }
 }
 .btn-orange{
-     @extend %btn;
-     background-color: rgba($btn-danger, 0.4);
-     &:hover{
-         background-color: darken($btn-danger, 10%);
-     }
-     
+    @extend %btn;
+    background-color: rgba($btn-danger, 0.4);
+    color: colorYic($btn-danger);
+    &:hover{
+        background-color: darken($btn-danger, 10%);
+    }
+
 }
 .btn-mint{
-     @extend %btn;
-     background-color: $btn-mint;
-     &:hover{
-         background-color: darken($btn-mint, 10%);
-     }
-     
+    @extend %btn;
+    background-color: $btn-mint;
+    color: colorYic($btn-mint);
+    &:hover{
+        background-color: darken($btn-mint, 10%);
+    }
+
 }
 .btn-green{
-     @extend %btn;
-     background-color: $btn-green;
-     &:hover{
-         background-color: darken($btn-green, 10%);
-     }
-     
+    @extend %btn;
+    background-color: $btn-green;
+    color: colorYic($btn-green);
+    &:hover{
+        background-color: darken($btn-green, 10%);
+    }
+
 }
 .btn-purple{
-     @extend %btn;
-     background-color: $btn-purple;
-     &:hover{
-         background-color: darken($btn-purple, 10%);
-     }
-     
+    @extend %btn;
+    background-color: $btn-purple;
+    color: colorYic($btn-purple);
+    &:hover{
+        background-color: darken($btn-purple, 10%);
+    }
+
 }
 .btn-red{
-     @extend %btn;
-     background-color: $btn-red;
-     &:hover{
-         background-color: darken($btn-red, 10%);
-     }
+    @extend %btn;
+    background-color: $btn-red;
+    color: colorYic($btn-red);
+    &:hover{
+        background-color: darken($btn-red, 10%);
+    }
 }
 
 

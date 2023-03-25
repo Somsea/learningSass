@@ -12,6 +12,7 @@
 
 .btn-default {
   background-color: #939cab;
+  color: #000000;
 }
 
 .btn-default:hover {
@@ -20,6 +21,7 @@
 
 .btn-orange {
   background-color: rgba(255, 114, 20, 0.4);
+  color: #000000;
 }
 
 .btn-orange:hover {
@@ -28,6 +30,7 @@
 
 .btn-mint {
   background-color: #14ffb9;
+  color: #000000;
 }
 
 .btn-mint:hover {
@@ -36,6 +39,7 @@
 
 .btn-green {
   background-color: #32c924;
+  color: #000000;
 }
 
 .btn-green:hover {
@@ -44,6 +48,7 @@
 
 .btn-purple {
   background-color: #df03fc;
+  color: #ffffff;
 }
 
 .btn-purple:hover {
@@ -52,6 +57,7 @@
 
 .btn-red {
   background-color: #f00c2a;
+  color: #ffffff;
 }
 
 .btn-red:hover {

@@ -30,3 +30,20 @@
     padding: $pt 0 $pb;
     background-color: $bg;
 }
+
+//function
+
+@function colorYic($color){
+    $r : red($color);
+    $g : green($color);
+    $b : blue($color);
+    
+    $yic: ($r*0.299) + ($g*0.587) + ($b*0.114);
+    
+    @if($yic > 129){
+        @return $black;
+    }@else{
+         @return $white;
+    }
+        
+}
