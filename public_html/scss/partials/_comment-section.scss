@@ -2,11 +2,58 @@ $comment-bg: $white;
 
 .comment-section{
     @include styleSection(30px, 30px, $comment-bg);
+
+
+    .comment-list{
+        list-style: none;
+        padding: 0;
+
+        .comment-item{
+            display: flex;
+            
+            .comment-img{
+                flex: 0 0 50px;
+                img{
+                    @include radius(50%);
+                }
+            }
+            
+            .comment-body{
+                padding-left: 10px;
+            }
+        }
+    }
     
-    
-    .comment-img{
+    @media(min-width:768px){
+        .comment-section{
+            
+            .comment-list{
+                
+                .comment-img{
+                    flex: 0 0 90px !important;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*.comment-img{
         img{
             @include radius(50%);
         }
-    }
+    }*/
 }
